@@ -47,13 +47,12 @@ const ViewSuppliers = ({ setSelectedItem }) => {
   return (
     <div className="p-6 bg-gray-100 rounded-lg shadow-lg">
       <div className="flex justify-between mb-4">
-        <h2 className="text-xl font-semibold text-gray-700">Suppliers</h2>
         <button
           onClick={handleAddNew}
           className="flex items-center px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600"
         >
           <FaPlus className="mr-2" />
-          Add New Supplier/Third Party
+          Add New
         </button>
       </div>
       <div className="overflow-x-auto">

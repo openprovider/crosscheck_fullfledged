@@ -119,7 +119,6 @@ const Sidebar = ({ setSelectedItem }) => {
         {isExpanded && openMenu === "Consumers" && (
           <ul className="pl-12 mt-2 text-sm">
             <li onClick={() => setSelectedItem("Add Consumer")}>Add</li>
-            <li onClick={() => setSelectedItem("Remove Consumer")}>Remove</li>
             <li onClick={() => setSelectedItem("View and Modify Consumers")}>
               View and Modify
             </li>
