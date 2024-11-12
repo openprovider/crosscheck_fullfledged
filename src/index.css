@@ -2,6 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .bg-secondary {
+    @apply bg-gray-100; /* or directly use the color if defined in tailwind.config.js */
+  }
+
+  .text-primary {
+    @apply text-blue-700; /* Adjust color as needed */
+  }
+
+  .text-dark {
+    @apply text-gray-900;
+  }
+
+  .bg-primary {
+    @apply bg-blue-500;
+  }
+
+  .accent {
+    @apply text-accent;
+  }
+}
+
+/* src/index.css */
+body {
+  @apply bg-secondary font-sans;
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

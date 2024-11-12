@@ -44,7 +44,7 @@ const AddSupplierForm = () => {
             value={formData.name}
             onChange={handleChange}
             required
-            className="w-full mt-1 p-2 border rounded-md"
+            className="w-full mt-1 p-2 border border-gray-300 rounded-md bg-gray-50 text-gray-800"
           />
         </div>
         <div>
@@ -57,7 +57,7 @@ const AddSupplierForm = () => {
             value={formData.company}
             onChange={handleChange}
             required
-            className="w-full mt-1 p-2 border rounded-md"
+            className="w-full mt-1 p-2 border border-gray-300 rounded-md bg-gray-50 text-gray-800"
           />
         </div>
         <div>
@@ -67,7 +67,7 @@ const AddSupplierForm = () => {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="w-full mt-1 p-2 border rounded-md"
+            className="w-full mt-1 p-2 border border-gray-300 rounded-md bg-gray-50 text-gray-800"
           />
         </div>
         <div>
@@ -77,7 +77,7 @@ const AddSupplierForm = () => {
             name="phone"
             value={formData.phone}
             onChange={handleChange}
-            className="w-full mt-1 p-2 border rounded-md"
+            className="w-full mt-1 p-2 border border-gray-300 rounded-md bg-gray-50 text-gray-800"
           />
         </div>
         <div className="md:col-span-2">
@@ -86,7 +86,7 @@ const AddSupplierForm = () => {
             name="address"
             value={formData.address}
             onChange={handleChange}
-            className="w-full mt-1 p-2 border rounded-md"
+            className="w-full mt-1 p-2 border border-gray-300 rounded-md bg-gray-50 text-gray-800"
             rows="3"
           />
         </div>
@@ -97,7 +97,7 @@ const AddSupplierForm = () => {
             name="city"
             value={formData.state}
             onChange={handleChange}
-            className="w-full mt-1 p-2 border rounded-md"
+            className="w-full mt-1 p-2 border border-gray-300 rounded-md bg-gray-50 text-gray-800"
           />
         </div>
         <div>
@@ -107,7 +107,7 @@ const AddSupplierForm = () => {
             name="city"
             value={formData.city}
             onChange={handleChange}
-            className="w-full mt-1 p-2 border rounded-md"
+            className="w-full mt-1 p-2 border border-gray-300 rounded-md bg-gray-50 text-gray-800"
           />
         </div>
         <div>
@@ -119,7 +119,7 @@ const AddSupplierForm = () => {
             name="tcs"
             value={formData.tcs}
             onChange={handleChange}
-            className="w-full mt-1 p-2 border rounded-md"
+            className="w-full mt-1 p-2 border border-gray-300 rounded-md bg-gray-50 text-gray-800"
           />
         </div>
       </div>
